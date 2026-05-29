@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rota dos Carneiros</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="logo">
+      <img src="assets/icons/logo.png" alt="Logo" class="logo-img">
+    </div>
+
+    <nav>
+      <ul id="menuCategorias">
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- CONTEÚDO -->
+  <main class="content">
+
+    <!-- HERO -->
+    <section class="hero">
+      <img src="assets/img/banner.avif" alt="Banner">
+
+      <div class="overlay"></div>
+
+      <div class="hero-content">
+        <h1>ROTA DOS </h1>
+        <h1>CARNEIROS</h1>
+        <p>Restaurante</p>
+      </div>
+    </section>
+
+    <!-- PRODUTOS -->
+    <div id="skeletonContainer">
+
+      <section class="categoria">
+
+        <div class="skeleton-title"></div>
+
+        <div class="cards">
+
+          <div class="skeleton-card"></div>
+          <div class="skeleton-card"></div>
+          <div class="skeleton-card"></div>
+          <div class="skeleton-card"></div>
+
+        </div>
+
+      </section>
+
+      <section class="categoria">
+
+        <div class="skeleton-title"></div>
+        
+        <div class="cards">
+
+          <div class="skeleton-card"></div>
+          <div class="skeleton-card"></div>
+          <div class="skeleton-card"></div>
+          <div class="skeleton-card"></div>
+
+        </div>
+
+      </section>
+
+    </div>
+
+    <div id="containerProdutos"></div>
+
+  </main>
+
+  <!-- MODAL -->
+
+  <div class="modal" id="modal">
+
+    <div class="modal-overlay"></div>
+
+    <div class="modal-content">
+
+      <button class="close-modal">
+        <i class="fas fa-times"></i>
+      </button>
+
+      <div class="modal-image">
+        <img id="modalImg" src="" alt="">
+      </div>
+
+      <div class="modal-info">
+
+        <span class="modal-badge" id="modalBadge">
+          Destaque
+        </span>
+
+        <h2 id="modalTitle"></h2>
+
+        <p id="modalDescription"></p>
+
+        <div class="modal-price" id="modalPrice"></div>
+<!-- 
+        <button class="modal-button">
+          Peça Já
+        </button> -->
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- MOBILE NAV -->
+
+  <nav class="mobile-nav">
+
+    <button data-target="petiscos">
+      <i class="fas fa-shrimp"></i>
+      <span>Petiscos</span>
+    </button>
+
+    <button data-target="pratos-principais">
+      <i class="fas fa-utensils"></i>
+      <span>Pratos</span>
+    </button>
+
+    <button data-target="bebidas">
+      <i class='fas fa-glass-water'></i>
+      <span>Bebidas</span>
+    </button>
+
+  </nav>
+
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,357 @@
+{
+  "categorias": [
+    {
+      "nome": "Petiscos",
+      "icone": "<i class='fas fa-shrimp'></i>",
+      "itens": [
+        {
+          "nome": "Batata Frita",
+          "descricao": "300g de batata frita",
+          "preco": "R$ 36",
+          "imagem": "assets/img/batata.jpeg"
+        },
+        {
+          "nome": "Macaxeira Frita",
+          "descricao": "300g de macaxeira frita",
+          "preco": "R$ 36",
+          "imagem": "assets/img/macaxeira.jpeg"
+        },
+        {
+          "nome": "Carne de Sol Petisco",
+          "descricao": "350g de carne de sol e 300g de batata frita",
+          "preco": "R$ 106",
+          "imagem": "assets/img/carnedesol.jpeg",
+          "badge": "Mais vendido"
+        },
+        {
+          "nome": "Camarão Crocante",
+          "descricao": "300g de camarão empanado na farinha panko, acompanha 300g de batata frita e geléia de abacaxi com pimenta.",
+          "preco": "R$ 125",
+          "imagem": "assets/img/camarao-crocante.jpeg"
+        },
+        {
+          "nome": "Camarão Alho e Óleo",
+          "descricao": "400g de camarão com casca.",
+          "preco": "R$ 120",
+          "imagem": "assets/img/camarao-alho-oleo.jpeg"
+        },
+        {
+          "nome": "Isca de Peixe",
+          "descricao": "350g de isca de peixe (filé) acompanhada de batata frita.",
+          "preco": "R$ 96",
+          "imagem": "assets/img/isca-peixe.jpeg"
+        },
+        {
+          "nome": "Filé com Fritas",
+          "descricao": "350g de contra filé acebolado com 300g de batata frita.",
+          "preco": "R$ 98",
+          "imagem": "assets/img/file-fritas.jpeg"
+        },
+        {
+          "nome": "Agulha Frita",
+          "descricao": "10 unidades.",
+          "preco": "R$ 82",
+          "imagem": "assets/img/agulha-frita.jpeg"
+        }
+      ]
+    },
+
+    {
+      "nome": "Caldinhos",
+      "icone": "<i class='fas fa-mug-hot'></i>",
+      "itens": [
+        {
+          "nome": "Caldo de Aratu",
+          "descricao": "300ml de caldo de aratu.",
+          "preco": "R$ 20",
+          "imagem": "assets/img/caldo-aratu.jpeg"
+        },
+        {
+          "nome": "Caldo de Peixe",
+          "descricao": "300ml de caldo de peixe.",
+          "preco": "R$ 20",
+          "imagem": "assets/img/caldo-peixe.jpeg"
+        },
+        {
+          "nome": "Caldo de Camarão",
+          "descricao": "300ml de caldo de camarão.",
+          "preco": "R$ 20",
+          "imagem": "assets/img/caldo-camarao.jpeg"
+        },
+        {
+          "nome": "Caldo de Feijão",
+          "descricao": "300ml de caldo de feijão.",
+          "preco": "R$ 20",
+          "imagem": "assets/img/caldo-feijao.jpeg"
+        }
+      ]
+    },
+
+    {
+      "nome": "Bebidas",
+      "icone": "<i class='fas fa-glass-water'></i>",
+      "itens": [
+        {
+          "nome": "Água sem gás",
+          "descricao": "Água mineral sem gás.",
+          "preco": "R$ 5",
+          "imagem": "assets/img/agua.jpeg"
+        },
+        {
+          "nome": "Água com gás",
+          "descricao": "Água mineral com gás.",
+          "preco": "R$ 6",
+          "imagem": "assets/img/agua-gas.jpeg"
+        },
+        {
+          "nome": "Coca-Cola Lata",
+          "descricao": "Refrigerante Coca-Cola lata.",
+          "preco": "R$ 9",
+          "imagem": "assets/img/coca.jpeg"
+        },
+        {
+          "nome": "Coca-Cola Sem Açúcar",
+          "descricao": "Coca-Cola zero açúcar lata.",
+          "preco": "R$ 9",
+          "imagem": "assets/img/coca-zero.jpeg"
+        },
+        {
+          "nome": "Guaraná Antarctica",
+          "descricao": "Guaraná Antarctica lata.",
+          "preco": "R$ 9",
+          "imagem": "assets/img/guarana.jpeg"
+        },
+        {
+          "nome": "Fanta Laranja",
+          "descricao": "Fanta Laranja lata.",
+          "preco": "R$ 9",
+          "imagem": "assets/img/fanta.jpeg"
+        },
+        {
+          "nome": "Sprite",
+          "descricao": "Sprite lata.",
+          "preco": "R$ 8",
+          "imagem": "assets/img/sprite.jpeg"
+        },
+        {
+          "nome": "H2O",
+          "descricao": "Bebida gaseificada sabor limão.",
+          "preco": "R$ 10",
+          "imagem": "assets/img/h2o.jpeg"
+        },
+        {
+          "nome": "Red Bull Tropical",
+          "descricao": "Energético Red Bull Tropical.",
+          "preco": "R$ 17",
+          "imagem": "assets/img/redbull-tropical.jpeg"
+        },
+        {
+          "nome": "Red Bull Melancia",
+          "descricao": "Energético Red Bull Melancia.",
+          "preco": "R$ 18",
+          "imagem": "assets/img/redbull-melancia.jpeg"
+        },
+        {
+          "nome": "Monster Ultra",
+          "descricao": "Monster Ultra sem açúcar.",
+          "preco": "R$ 24",
+          "imagem": "assets/img/monster-ultra.jpeg"
+        },
+        {
+          "nome": "Coco Verde",
+          "descricao": "Água de coco natural.",
+          "preco": "R$ 9",
+          "imagem": "assets/img/coco.jpeg"
+        }
+      ]
+    },
+
+    {
+      "nome": "Cervejas",
+      "icone": "<i class='fas fa-beer-mug-empty'></i>",
+      "itens": [
+        {
+          "nome": "Heineken Long Neck",
+          "descricao": "330ml.",
+          "preco": "R$ 16",
+          "imagem": "assets/img/heineken.jpeg"
+        },
+        {
+          "nome": "Heineken Zero",
+          "descricao": "Long Neck 330ml.",
+          "preco": "R$ 16",
+          "imagem": "assets/img/heineken-zero.jpeg"
+        },
+        {
+          "nome": "Stella Artois",
+          "descricao": "Long Neck 330ml.",
+          "preco": "R$ 15",
+          "imagem": "assets/img/stella.jpeg"
+        },
+        {
+          "nome": "Budweiser",
+          "descricao": "Long Neck 330ml.",
+          "preco": "R$ 15",
+          "imagem": "assets/img/budweiser.jpeg"
+        },
+        {
+          "nome": "Corona",
+          "descricao": "Long Neck 330ml.",
+          "preco": "R$ 16",
+          "imagem": "assets/img/corona.jpeg"
+        }
+      ]
+    },
+
+    {
+      "nome": "Drinks",
+      "icone": "<i class='fas fa-cocktail'></i>",
+      "itens": [
+        {
+          "nome": "Caipirinha",
+          "descricao": "Limão taiti, cachaça, açúcar e gelo.",
+          "preco": "R$ 15",
+          "imagem": "assets/img/caipirinha.jpeg"
+        },
+        {
+          "nome": "Caipiroska Nacional",
+          "descricao": "Limão taiti, vodka Orloff, açúcar e gelo.",
+          "preco": "R$ 18",
+          "imagem": "assets/img/caipiroska.jpeg"
+        },
+        {
+          "nome": "Caipfruta",
+          "descricao": "Fruta, vodka Orloff, açúcar, gelo e leite condensado.",
+          "preco": "R$ 25",
+          "imagem": "assets/img/caipfruta.jpeg"
+        },
+        {
+          "nome": "Gin Tônica",
+          "descricao": "Gin Beefeater, limão e água tônica.",
+          "preco": "R$ 30",
+          "imagem": "assets/img/gin-tonica.jpeg"
+        },
+        {
+          "nome": "Tropical Gin",
+          "descricao": "Gin Beefeater, Red Bull Tropical e gelo.",
+          "preco": "R$ 32",
+          "imagem": "assets/img/tropical-gin.jpeg",
+          "badge": "Novo"
+        },
+        {
+          "nome": "Melancita Gin",
+          "descricao": "Gin Tanqueray com Red Bull Melancia.",
+          "preco": "R$ 35",
+          "imagem": "assets/img/melancita.jpeg"
+        },
+        {
+          "nome": "Summer Day",
+          "descricao": "Vodka Absolut, curaçau, limão siciliano e abacaxi.",
+          "preco": "R$ 38",
+          "imagem": "assets/img/summerday.jpeg"
+        },
+        {
+          "nome": "Rota dos Carneiros",
+          "descricao": "Drink especial da casa com Lillet Branco e morango.",
+          "preco": "R$ 32",
+          "imagem": "assets/img/rota-drink.jpeg",
+          "badge": "Especial"
+        }
+      ]
+    },
+
+    {
+      "nome": "Pratos Principais",
+      "icone": "<i class='fas fa-utensils'></i>",
+      "itens": [
+        {
+          "nome": "Picanha",
+          "descricao": "400g de picanha, batata rústica, farofa defumada, vinagrete, feijão macassar e arroz.",
+          "preco": "R$ 197",
+          "imagem": "assets/img/picanha.jpeg",
+          "badge": "Mais vendido"
+        },
+        {
+          "nome": "Maminha",
+          "descricao": "400g de maminha, batata frita, farofa defumada, vinagrete, feijão macassar e arroz.",
+          "preco": "R$ 185",
+          "imagem": "assets/img/maminha.jpeg"
+        },
+        {
+          "nome": "Carne de Sol com Queijo",
+          "descricao": "400g de carne de sol, queijo coalho, cebola, batata frita, arroz e feijão macassar.",
+          "preco": "R$ 175",
+          "imagem": "assets/img/carne-sol-queijo.jpeg"
+        },
+        {
+          "nome": "Peixe Inteiro",
+          "descricao": "Peixe cioba para 2 pessoas com arroz, feijão macassar e batata frita.",
+          "preco": "R$ 186",
+          "imagem": "assets/img/peixe-inteiro.jpeg"
+        },
+        {
+          "nome": "Peixe em Posta",
+          "descricao": "400g de posta dourado com arroz, pirão e batata frita.",
+          "preco": "R$ 197",
+          "imagem": "assets/img/peixe-posta.jpeg"
+        },
+        {
+          "nome": "Moqueca de Peixe",
+          "descricao": "400g de filé pescada acompanhada de arroz e pirão.",
+          "preco": "R$ 170",
+          "imagem": "assets/img/moqueca.jpeg"
+        },
+        {
+          "nome": "Filé Pescada Crocante",
+          "descricao": "Filé empanado na farinha panko com arroz, salada e pirão.",
+          "preco": "R$ 185",
+          "imagem": "assets/img/pescada-crocante.jpeg"
+        },
+        {
+          "nome": "Salmão Grelhado",
+          "descricao": "400g de salmão ao molho maracujá, arroz de castanha e legumes salteados.",
+          "preco": "R$ 187",
+          "imagem": "assets/img/salmao.jpeg"
+        },
+        {
+          "nome": "Camarão Tropical",
+          "descricao": "350g de camarão servido no abacaxi com arroz castanha e batata rústica.",
+          "preco": "R$ 189",
+          "imagem": "assets/img/camarao-tropical.jpeg",
+          "badge": "Chef"
+        },
+        {
+          "nome": "Camarão Coco Verde",
+          "descricao": "350g de camarão com arroz castanha e batata rústica.",
+          "preco": "R$ 189",
+          "imagem": "assets/img/camarao-coco-verde.jpeg"
+        },
+        {
+          "nome": "Filé de Tilápia Grelhado",
+          "descricao": "400g de filé de tilápia com arroz castanha e batata rústica.",
+          "preco": "R$ 159",
+          "imagem": "assets/img/tilapia.jpeg"
+        }
+      ]
+    },
+
+    {
+      "nome": "Saladas",
+      "icone": "<i class='fas fa-leaf'></i>",
+      "itens": [
+        {
+          "nome": "Mix de Folhas",
+          "descricao": "Alface, cebola roxa, tomate, queijo coalho, castanha e molho mostarda e mel.",
+          "preco": "R$ 45",
+          "imagem": "assets/img/mix-folhas.jpeg"
+        },
+        {
+          "nome": "Salada Tradicional",
+          "descricao": "Alface, cebola, tomate, cenoura ralada e repolho.",
+          "preco": "R$ 40",
+          "imagem": "assets/img/salada.jpeg"
+        }
+      ]
+    }
+  ]
+}
