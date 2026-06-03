@@ -86,180 +86,6 @@
         }
       ]
     },
-
-    {
-      "nome": "Bebidas",
-      "icone": "<i class='fas fa-glass-water'></i>",
-      "itens": [
-        {
-          "nome": "Água sem gás",
-          "descricao": "Água mineral sem gás.",
-          "preco": "R$ 5",
-          "imagem": "assets/img/agua.jpeg"
-        },
-        {
-          "nome": "Água com gás",
-          "descricao": "Água mineral com gás.",
-          "preco": "R$ 6",
-          "imagem": "assets/img/agua-gas.jpeg"
-        },
-        {
-          "nome": "Coca-Cola Lata",
-          "descricao": "Refrigerante Coca-Cola lata.",
-          "preco": "R$ 9",
-          "imagem": "assets/img/coca.jpeg"
-        },
-        {
-          "nome": "Coca-Cola Sem Açúcar",
-          "descricao": "Coca-Cola zero açúcar lata.",
-          "preco": "R$ 9",
-          "imagem": "assets/img/coca-zero.jpeg"
-        },
-        {
-          "nome": "Guaraná Antarctica",
-          "descricao": "Guaraná Antarctica lata.",
-          "preco": "R$ 9",
-          "imagem": "assets/img/guarana.jpeg"
-        },
-        {
-          "nome": "Fanta Laranja",
-          "descricao": "Fanta Laranja lata.",
-          "preco": "R$ 9",
-          "imagem": "assets/img/fanta.jpeg"
-        },
-        {
-          "nome": "Sprite",
-          "descricao": "Sprite lata.",
-          "preco": "R$ 8",
-          "imagem": "assets/img/sprite.jpeg"
-        },
-        {
-          "nome": "H2O",
-          "descricao": "Bebida gaseificada sabor limão.",
-          "preco": "R$ 10",
-          "imagem": "assets/img/h2o.jpeg"
-        },
-        {
-          "nome": "Red Bull Tropical",
-          "descricao": "Energético Red Bull Tropical.",
-          "preco": "R$ 17",
-          "imagem": "assets/img/redbull-tropical.jpeg"
-        },
-        {
-          "nome": "Red Bull Melancia",
-          "descricao": "Energético Red Bull Melancia.",
-          "preco": "R$ 18",
-          "imagem": "assets/img/redbull-melancia.jpeg"
-        },
-        {
-          "nome": "Monster Ultra",
-          "descricao": "Monster Ultra sem açúcar.",
-          "preco": "R$ 24",
-          "imagem": "assets/img/monster-ultra.jpeg"
-        },
-        {
-          "nome": "Coco Verde",
-          "descricao": "Água de coco natural.",
-          "preco": "R$ 9",
-          "imagem": "assets/img/coco.jpeg"
-        }
-      ]
-    },
-
-    {
-      "nome": "Cervejas",
-      "icone": "<i class='fas fa-beer-mug-empty'></i>",
-      "itens": [
-        {
-          "nome": "Heineken Long Neck",
-          "descricao": "330ml.",
-          "preco": "R$ 16",
-          "imagem": "assets/img/heineken.jpeg"
-        },
-        {
-          "nome": "Heineken Zero",
-          "descricao": "Long Neck 330ml.",
-          "preco": "R$ 16",
-          "imagem": "assets/img/heineken-zero.jpeg"
-        },
-        {
-          "nome": "Stella Artois",
-          "descricao": "Long Neck 330ml.",
-          "preco": "R$ 15",
-          "imagem": "assets/img/stella.jpeg"
-        },
-        {
-          "nome": "Budweiser",
-          "descricao": "Long Neck 330ml.",
-          "preco": "R$ 15",
-          "imagem": "assets/img/budweiser.jpeg"
-        },
-        {
-          "nome": "Corona",
-          "descricao": "Long Neck 330ml.",
-          "preco": "R$ 16",
-          "imagem": "assets/img/corona.jpeg"
-        }
-      ]
-    },
-
-    {
-      "nome": "Drinks",
-      "icone": "<i class='fas fa-cocktail'></i>",
-      "itens": [
-        {
-          "nome": "Caipirinha",
-          "descricao": "Limão taiti, cachaça, açúcar e gelo.",
-          "preco": "R$ 15",
-          "imagem": "assets/img/caipirinha.jpeg"
-        },
-        {
-          "nome": "Caipiroska Nacional",
-          "descricao": "Limão taiti, vodka Orloff, açúcar e gelo.",
-          "preco": "R$ 18",
-          "imagem": "assets/img/caipiroska.jpeg"
-        },
-        {
-          "nome": "Caipfruta",
-          "descricao": "Fruta, vodka Orloff, açúcar, gelo e leite condensado.",
-          "preco": "R$ 25",
-          "imagem": "assets/img/caipfruta.jpeg"
-        },
-        {
-          "nome": "Gin Tônica",
-          "descricao": "Gin Beefeater, limão e água tônica.",
-          "preco": "R$ 30",
-          "imagem": "assets/img/gin-tonica.jpeg"
-        },
-        {
-          "nome": "Tropical Gin",
-          "descricao": "Gin Beefeater, Red Bull Tropical e gelo.",
-          "preco": "R$ 32",
-          "imagem": "assets/img/tropical-gin.jpeg",
-          "badge": "Novo"
-        },
-        {
-          "nome": "Melancita Gin",
-          "descricao": "Gin Tanqueray com Red Bull Melancia.",
-          "preco": "R$ 35",
-          "imagem": "assets/img/melancita.jpeg"
-        },
-        {
-          "nome": "Summer Day",
-          "descricao": "Vodka Absolut, curaçau, limão siciliano e abacaxi.",
-          "preco": "R$ 38",
-          "imagem": "assets/img/summerday.jpeg"
-        },
-        {
-          "nome": "Rota dos Carneiros",
-          "descricao": "Drink especial da casa com Lillet Branco e morango.",
-          "preco": "R$ 32",
-          "imagem": "assets/img/rota-drink.jpeg",
-          "badge": "Especial"
-        }
-      ]
-    },
-
     {
       "nome": "Pratos Principais",
       "icone": "<i class='fas fa-utensils'></i>",
@@ -352,6 +178,180 @@
           "imagem": "assets/img/salada.jpeg"
         }
       ]
+    },
+    
+    {
+      "nome": "Bebidas",
+      "icone": "<i class='fas fa-glass-water'></i>",
+      "itens": [
+        {
+          "nome": "Água sem gás",
+          "descricao": "Água mineral sem gás.",
+          "preco": "R$ 5",
+          "imagem": "assets/img/agua.png"
+        },
+        {
+          "nome": "Água com gás",
+          "descricao": "Água mineral com gás.",
+          "preco": "R$ 6",
+          "imagem": "assets/img/agua-gas.jpg"
+        },
+        {
+          "nome": "Coca-Cola Lata",
+          "descricao": "Refrigerante Coca-Cola lata.",
+          "preco": "R$ 9",
+          "imagem": "assets/img/coca.webp"
+        },
+        {
+          "nome": "Coca-Cola Sem Açúcar",
+          "descricao": "Coca-Cola zero açúcar lata.",
+          "preco": "R$ 9",
+          "imagem": "assets/img/coca-zero.png"
+        },
+        {
+          "nome": "Guaraná Antarctica",
+          "descricao": "Guaraná Antarctica lata.",
+          "preco": "R$ 9",
+          "imagem": "assets/img/guarana.png"
+        },
+        {
+          "nome": "Fanta Laranja",
+          "descricao": "Fanta Laranja lata.",
+          "preco": "R$ 9",
+          "imagem": "assets/img/fanta.webp"
+        },
+        {
+          "nome": "Sprite",
+          "descricao": "Sprite lata.",
+          "preco": "R$ 8",
+          "imagem": "assets/img/sprite.jpg"
+        },
+        {
+          "nome": "H2O",
+          "descricao": "Bebida gaseificada sabor limão.",
+          "preco": "R$ 10",
+          "imagem": "assets/img/h2o.jpeg"
+        },
+        {
+          "nome": "Red Bull Tropical",
+          "descricao": "Energético Red Bull Tropical.",
+          "preco": "R$ 17",
+          "imagem": "assets/img/redbull-tropical.avif"
+        },
+        {
+          "nome": "Red Bull Melancia",
+          "descricao": "Energético Red Bull Melancia.",
+          "preco": "R$ 18",
+          "imagem": "assets/img/redbull-melancia.jpg"
+        },
+        {
+          "nome": "Monster Ultra",
+          "descricao": "Monster Ultra sem açúcar.",
+          "preco": "R$ 24",
+          "imagem": "assets/img/monster-ultra.jpg"
+        },
+        {
+          "nome": "Coco Verde",
+          "descricao": "Água de coco natural.",
+          "preco": "R$ 9",
+          "imagem": "assets/img/coco.avif"
+        }
+      ]
+    },
+
+    {
+      "nome": "Cervejas",
+      "icone": "<i class='fas fa-beer-mug-empty'></i>",
+      "itens": [
+        {
+          "nome": "Heineken Long Neck",
+          "descricao": "330ml.",
+          "preco": "R$ 16",
+          "imagem": "assets/img/heineken.webp"
+        },
+        {
+          "nome": "Heineken Zero",
+          "descricao": "Long Neck 330ml.",
+          "preco": "R$ 16",
+          "imagem": "assets/img/heineken-zero.jpg"
+        },
+        {
+          "nome": "Stella Artois",
+          "descricao": "Long Neck 330ml.",
+          "preco": "R$ 15",
+          "imagem": "assets/img/stella.jpg"
+        },
+        {
+          "nome": "Budweiser",
+          "descricao": "Long Neck 330ml.",
+          "preco": "R$ 15",
+          "imagem": "assets/img/budweiser.webp"
+        },
+        {
+          "nome": "Corona",
+          "descricao": "Long Neck 330ml.",
+          "preco": "R$ 16",
+          "imagem": "assets/img/corona.webp"
+        }
+      ]
+    },
+
+    {
+      "nome": "Drinks",
+      "icone": "<i class='fas fa-cocktail'></i>",
+      "itens": [
+        {
+          "nome": "Caipirinha",
+          "descricao": "Limão taiti, cachaça, açúcar e gelo.",
+          "preco": "R$ 15",
+          "imagem": "assets/img/caipirinha.jpeg"
+        },
+        {
+          "nome": "Caipiroska Nacional",
+          "descricao": "Limão taiti, vodka Orloff, açúcar e gelo.",
+          "preco": "R$ 18",
+          "imagem": "assets/img/caipiroska.jpeg"
+        },
+        {
+          "nome": "Caipfruta",
+          "descricao": "Fruta, vodka Orloff, açúcar, gelo e leite condensado.",
+          "preco": "R$ 25",
+          "imagem": "assets/img/caipfruta.jpeg"
+        },
+        {
+          "nome": "Gin Tônica",
+          "descricao": "Gin Beefeater, limão e água tônica.",
+          "preco": "R$ 30",
+          "imagem": "assets/img/gin-tonica.jpeg"
+        },
+        {
+          "nome": "Tropical Gin",
+          "descricao": "Gin Beefeater, Red Bull Tropical e gelo.",
+          "preco": "R$ 32",
+          "imagem": "assets/img/tropical-gin.jpeg",
+          "badge": "Novo"
+        },
+        {
+          "nome": "Melancita Gin",
+          "descricao": "Gin Tanqueray com Red Bull Melancia.",
+          "preco": "R$ 35",
+          "imagem": "assets/img/melancita.jpeg"
+        },
+        {
+          "nome": "Summer Day",
+          "descricao": "Vodka Absolut, curaçau, limão siciliano e abacaxi.",
+          "preco": "R$ 38",
+          "imagem": "assets/img/summerday.jpeg"
+        },
+        {
+          "nome": "Rota dos Carneiros",
+          "descricao": "Drink especial da casa com Lillet Branco e morango.",
+          "preco": "R$ 32",
+          "imagem": "assets/img/rota-drink.jpeg",
+          "badge": "Especial"
+        }
+      ]
     }
+
   ]
 }

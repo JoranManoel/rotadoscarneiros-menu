@@ -14,7 +14,10 @@ fetch('data/cardapio.json')
 
         skeletonContainer.style.display = 'none';
 
-        data.categorias.forEach(categoria => {
+        const limiteMenu = 3;
+        const categoriasOcultas = [];
+
+        data.categorias.forEach((categoria, index) => {
 
             // ID DA CATEGORIA
             const categoriaId = categoria.nome
@@ -25,14 +28,19 @@ fetch('data/cardapio.json')
             const li = document.createElement('li');
 
             li.innerHTML = `
-        <div>
-          <h2>${categoria.icone}</h2>
-        </div>
+                            <div>
+                                <h2>${categoria.icone}</h2>
+                            </div>
 
-        <small>${categoria.nome}</small>
-      `;
+                            <small>${categoria.nome}</small>
+                        `;
 
             li.setAttribute('data-target', categoriaId);
+
+            if (index >= limiteMenu) {
+                li.style.display = 'none';
+                categoriasOcultas.push(li);
+            }
 
             // CLICK MENU
             li.addEventListener('click', () => {
@@ -66,8 +74,8 @@ fetch('data/cardapio.json')
 
             section.innerHTML = `
 
-        <h2>${categoria.nome}</h2>
-        <div class="cards-wrapper">
+            <h2>${categoria.nome}</h2>
+            <div class="cards-wrapper">
 
             <div class="fade-left"></div>
             <div class="fade-right"></div>
@@ -117,6 +125,45 @@ fetch('data/cardapio.json')
 
         });
 
+
+        // =======================
+        // BOTÃO MAIS
+        // =======================
+
+        if (categoriasOcultas.length > 0) {
+
+            const btnMais = document.createElement('li');
+
+            btnMais.innerHTML = `
+                                <div>
+                                    <h2><i class="fas fa-ellipsis-h"></i></h2>
+                                </div>
+                                <small>Mais</small>
+                            `;
+
+            let aberto = false;
+
+            btnMais.addEventListener('click', () => {
+
+                aberto = !aberto;
+
+                categoriasOcultas.forEach(item => {
+
+                    item.style.display =
+                        aberto ? 'flex' : 'none';
+
+                });
+
+                btnMais.querySelector('small').innerText =
+                    aberto ? 'Menos' : 'Mais';
+
+            });
+
+            menuCategorias.appendChild(btnMais);
+
+        }
+
+
         // =========================
         // OBSERVER
         // =========================
@@ -162,7 +209,7 @@ fetch('data/cardapio.json')
             observer.observe(section);
         });
 
-        
+
         // =======================
         // FADES DOS CARDS
         // =======================

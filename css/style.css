@@ -83,7 +83,7 @@ SIDEBAR
 
 .logo {
 
-  width: 60px;
+  /* width: 60px;
   height: 60px;
 
   border-radius: 22px;
@@ -105,7 +105,7 @@ SIDEBAR
       #ff7b00);
 
   box-shadow:
-    0 10px 30px rgba(255, 184, 0, .25);
+    0 10px 30px rgba(255, 184, 0, .25); */
 
 }
 
@@ -216,6 +216,17 @@ SIDEBAR
 
 }
 
+.sidebar li:last-child{
+  font-size: 10px;
+  padding: 0;
+  margin-top: 0;
+  color:#ffb800;
+}
+
+.sidebar small:last-child{
+  margin-top: 0;
+  font-size: 10px;
+}
 /* =========================
 CONTENT
 ========================= */
@@ -561,7 +572,7 @@ CARDS
   bottom: 0;
 
   width: 100%;
-  height: 70%;
+  height: 60%;
 
   background:
     linear-gradient(to top,
@@ -924,7 +935,7 @@ MODAL
   border-radius: 50%;
 
   background:
-    rgba(255, 255, 255, .08);
+    rgba(8, 8, 8, 0.354);
 
   color: white;
 
