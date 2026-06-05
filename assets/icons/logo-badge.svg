@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" role="img" aria-labelledby="title desc">
+  <title id="title">Rota dos Carneiros</title>
+  <desc id="desc">Logo circular bege da Rota dos Carneiros Restaurante.</desc>
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&amp;family=Cinzel:wght@400;500;600&amp;display=swap');
+      .brand-title { font-family: 'Cinzel Decorative', 'Cinzel', Georgia, serif; font-weight: 700; fill: #0b0907; letter-spacing: 2px; }
+      .brand-subtitle { font-family: 'Cinzel', Georgia, serif; font-weight: 500; fill: #0b0907; letter-spacing: 14px; }
+      .stroke { stroke: #0b0907; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+    </style>
+  </defs>
+  <circle cx="360" cy="360" r="346" fill="#e9cfad" stroke="rgba(11,9,7,.18)" stroke-width="2"/>
+  <text x="308" y="315" text-anchor="middle" class="brand-title" font-size="55">ROTA</text>
+  <text x="308" y="394" text-anchor="middle" class="brand-title" font-size="58">DOS CARNEIROS</text>
+  <line x1="114" y1="424" x2="444" y2="424" stroke="#0b0907" stroke-width="5"/>
+  <text x="312" y="485" text-anchor="middle" class="brand-subtitle" font-size="31">RESTAURANTE</text>
+  <path d="M432 285 C508 288 542 301 566 328 C542 354 532 389 568 420" class="stroke" stroke-width="3.5" stroke-dasharray="16 14"/>
+  <g transform="translate(406 220)">
+    <path d="M28 0 C59 0 84 25 84 56 C84 89 56 119 56 119 C56 119 28 89 28 56 C28 25 53 0 28 0" fill="#d7343f" transform="translate(-28)"/>
+    <circle cx="28" cy="53" r="20" fill="#e9cfad"/>
+  </g>
+  <g transform="translate(518 380)">
+    <path d="M28 0 C59 0 84 25 84 56 C84 89 56 119 56 119 C56 119 28 89 28 56 C28 25 53 0 28 0" fill="#18a94d" transform="translate(-28)"/>
+    <circle cx="28" cy="53" r="20" fill="#e9cfad"/>
+  </g>
+  <g transform="translate(440 476) scale(.72)">
+    <path d="M0 34 L74 0 L146 34" class="stroke" stroke-width="12"/>
+    <path d="M24 34 L24 70 M122 34 L122 70" class="stroke" stroke-width="10"/>
+    <g transform="translate(45 44) rotate(-30)">
+      <path d="M0 0 L0 72" class="stroke" stroke-width="10"/>
+      <path d="M-17 0 L-17 28 M0 0 L0 31 M17 0 L17 28" class="stroke" stroke-width="6"/>
+    </g>
+    <g transform="translate(88 41) rotate(24)">
+      <ellipse cx="0" cy="18" rx="15" ry="22" fill="#0b0907"/>
+      <path d="M0 38 L0 82" class="stroke" stroke-width="10"/>
+    </g>
+  </g>
+  <g transform="translate(548 482) scale(.58)">
+    <path d="M72 116 C55 78 54 34 83 4" class="stroke" stroke-width="8"/>
+    <path d="M98 116 C82 74 82 42 112 17" class="stroke" stroke-width="7"/>
+    <path d="M82 14 C48 5 25 14 4 38 M84 14 C55 33 42 53 37 78 M86 14 C111 4 139 9 161 28 M86 15 C102 32 111 55 112 82" class="stroke" stroke-width="6"/>
+  </g>
+  <g transform="translate(420 628)">
+    <path d="M0 0 C40 -18 68 25 108 7 C145 -11 174 22 222 6" class="stroke" stroke-width="3.5"/>
+    <path d="M20 23 C58 6 86 37 126 18 C163 1 192 33 242 15" class="stroke" stroke-width="3.5"/>
+  </g>
+</svg>
