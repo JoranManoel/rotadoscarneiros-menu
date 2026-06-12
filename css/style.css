@@ -341,7 +341,7 @@ HERO
   width: 500px;
   height: auto;
 
-  transform: scale(1.7);
+  transform: scale(1.6);
 
   animation:
     logoPulse 3s ease-in-out infinite;
@@ -1026,6 +1026,13 @@ MOBILE
     display: block;
   }
 
+  body.modal-open .mobile-nav{
+    opacity:0;
+    pointer-events:none;
+    transform:translateX(-50%) translateY(30px);
+    transition: .4s ease;
+  }
+
   .fade-left,
   .fade-right {
     width: 50px;
@@ -1084,8 +1091,9 @@ MOBILE
   }
 
   .logo-hero-img{
-    width: 220px;
-    height: 150px;
+    width: 190px;
+    height: 120px;
+    transform: scale(2.1);
   }
 
   /* CATEGORIA */
@@ -1181,8 +1189,11 @@ MOBILE
 
     z-index: 99999;
 
-    padding-bottom:
-      env(safe-area-inset-bottom);
+    padding-bottom: env(safe-area-inset-bottom);
+
+    transition:
+      opacity .3s ease,
+      transform .3s ease;
 
   }
 

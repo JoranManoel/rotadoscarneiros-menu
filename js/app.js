@@ -14,7 +14,7 @@ fetch('data/cardapio.json')
 
         skeletonContainer.style.display = 'none';
 
-        const limiteMenu = 3;
+        const limiteMenu = 5;
         const categoriasOcultas = [];
 
         data.categorias.forEach((categoria, index) => {
@@ -136,7 +136,7 @@ fetch('data/cardapio.json')
 
             btnMais.innerHTML = `
                                 <div>
-                                    <h2><i class="fas fa-ellipsis-h"></i></h2>
+                                    <h2><i class="fa-solid fa-angle-down"></i></h2>
                                 </div>
                                 <small>Mais</small>
                             `;
@@ -156,6 +156,8 @@ fetch('data/cardapio.json')
 
                 btnMais.querySelector('small').innerText =
                     aberto ? 'Menos' : 'Mais';
+                btnMais.querySelector('i').classList.toggle('fa-angle-up', aberto);
+                btnMais.querySelector('i').classList.toggle('fa-angle-down', !aberto);
 
             });
 
@@ -217,8 +219,7 @@ fetch('data/cardapio.json')
 
         allCards.forEach(cards => {
 
-            const wrapper =
-                cards.closest('.cards-wrapper');
+            const wrapper = cards.closest('.cards-wrapper');
 
             function updateFade() {
 
@@ -253,79 +254,63 @@ fetch('data/cardapio.json')
 // =========================
 // MODAL
 // =========================
+const modal = document.getElementById('modal');
 
-const modal =
-    document.getElementById('modal');
+const modalImg = document.getElementById('modalImg');
 
-const modalImg =
-    document.getElementById('modalImg');
+const modalTitle = document.getElementById('modalTitle');
 
-const modalTitle =
-    document.getElementById('modalTitle');
+const modalDescription = document.getElementById('modalDescription');
 
-const modalDescription =
-    document.getElementById('modalDescription');
+const modalPrice = document.getElementById('modalPrice');
 
-const modalPrice =
-    document.getElementById('modalPrice');
+const modalBadge = document.getElementById('modalBadge');
 
-const modalBadge =
-    document.getElementById('modalBadge');
-
-const closeModal =
-    document.querySelector('.close-modal');
+const closeModal = document.querySelector('.close-modal');
 
 // ABRIR MODAL
-
 document.addEventListener('click', (e) => {
 
-    const card =
-        e.target.closest('.card');
+    const card = e.target.closest('.card');
 
     if (!card) return;
 
-    modalImg.src =
-        card.dataset.imagem;
+    modalImg.src = card.dataset.imagem;
 
-    modalTitle.innerText =
-        card.dataset.nome;
+    modalTitle.innerText = card.dataset.nome;
 
-    modalDescription.innerText =
-        card.dataset.descricao;
+    modalDescription.innerText = card.dataset.descricao;
 
-    modalPrice.innerText =
-        card.dataset.preco;
+    modalPrice.innerText = card.dataset.preco;
 
     if (card.dataset.badge) {
 
-        modalBadge.style.display =
-            'inline-flex';
+        modalBadge.style.display = 'inline-flex';
 
-        modalBadge.innerText =
-            card.dataset.badge;
+        modalBadge.innerText = card.dataset.badge;
 
     } else {
 
-        modalBadge.style.display =
-            'none';
+        modalBadge.style.display ='none';
 
     }
 
     modal.classList.add('show');
 
-    document.body.style.overflow =
-        'hidden';
+    document.body.style.overflow = 'hidden';
+
+    document.body.classList.add('modal-open');
 
 });
 
 // FECHAR
-
 function fecharModal() {
 
     modal.classList.remove('show');
 
-    document.body.style.overflow =
-        'auto';
+    document.body.style.overflow = 'auto';
+
+    document.body.classList.remove('modal-open');
 
 }
 
@@ -335,7 +320,6 @@ closeModal.addEventListener(
 );
 
 // FECHAR AO CLICAR FORA
-
 modal.addEventListener('click', (e) => {
 
     if (
@@ -351,7 +335,6 @@ modal.addEventListener('click', (e) => {
 });
 
 // ESC
-
 document.addEventListener('keydown', (e) => {
 
     if (e.key === 'Escape') {
@@ -365,9 +348,7 @@ document.addEventListener('keydown', (e) => {
 // =========================
 // MOBILE NAV
 // =========================
-
-const mobileButtons =
-    document.querySelectorAll('.mobile-nav button');
+const mobileButtons = document.querySelectorAll('.mobile-nav button');
 
 mobileButtons.forEach(button => {
 
@@ -379,11 +360,9 @@ mobileButtons.forEach(button => {
 
         button.classList.add('active');
 
-        const target =
-            button.getAttribute('data-target');
+        const target = button.getAttribute('data-target');
 
-        const section =
-            document.getElementById(target);
+        const section = document.getElementById(target);
 
         if (section) {
 
